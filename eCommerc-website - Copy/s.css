@@ -1,0 +1,273 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
+
+
+/* ,,,,,,,,,,,,,,,,,,start,,,,,,,,,,,,,,,,, */
+#navbar1{
+    box-shadow: 0 1px 1px rgba(0,0,0,0.25), 
+    0 2px 2px rgba(0,0,0,0.20), 
+    0 4px 4px rgba(0,0,0,0.15), 
+    0 8px 8px rgba(0,0,0,0.10),
+    0 16px 16px rgba(0,0,0,0.05);
+}
+.nav-item .nav-link{
+    font-size: 20px;
+    font-weight: bold;
+    transition: .3s;
+    padding-left: 80px;
+    display: inline-block;
+    color: #0b69cc !important;
+}
+.nav-link:hover{
+    background: #eee;
+}
+.ml-auto1{
+    margin-left: auto;
+}
+/* ,,,,,,,,,,,,,,,,,,end,,,,,,,,,,,,,,,,, */
+
+
+
+
+
+
+/* ,,,,,,,,,,,,,,,,,,sub start,,,,,,,,,,,,,,,,, */
+    #sub{
+        background: rgb(99, 94, 94);
+    }
+    #sub input{
+        height: 50px;
+        width: 50%;
+        border: none;
+        color: black;
+        padding: 10px;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+       
+    }
+    .btn1{
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        height: 50px;
+        width: 50%;
+        outline: none;
+        border: none;
+        margin-left: -2px;
+        color: white;
+        background-color: yellowgreen;
+    }
+    .btn1:hover{
+        background: #333;
+        color: #fff;
+        transition: .4s;
+    }
+    .sub-fas{
+        font-size: 35px;
+        color: yellowgreen;
+       
+    }
+/* ,,,,,,,,,,,,,,,,,,end,,,,,,,,,,,,,,,,, */
+
+
+
+
+
+
+/* ,,,,,,,,,,,,,,,,,,newcollection start,,,,,,,,,,,,,,,,, */
+
+    #newcollection span{
+        color: #0DCAF0;
+        font-weight: 800;
+        font-size-adjust: 23px;
+        padding-left: 5px;
+
+    }
+    .card{
+        border: none;
+        box-shadow: 0 1px 2px rgba(0, 0, 0, 0.027), 
+        0 2px 4px rgba(0,0,0,0.03), 
+        0 4px 8px rgba(0,0,0,0.03), 
+        0 8px 16px rgba(0,0,0,0.03),
+        0 16px 32px rgba(0,0,0,0.03), 
+        0 32px 64px rgba(0,0,0,0.03);
+        padding: 10px;
+}
+    }
+    .btn2{
+        background:#0DCAF0;
+        color: black;
+        font-weight: bold;
+        border: none;
+    }
+    #newcollection input{
+        position: absolute;
+        height: 45px;
+        width: 130px;
+        background-color: #0DCAF0;
+        color: #000;
+        font-weight: bold;
+        font-size: 16px;
+        border-radius: 8px;
+        outline: none;
+        border: none;
+        text-align: center;
+        top: 35%;
+        left: 30%;
+        opacity: 0;
+        transition: .4s;
+
+
+    }
+    #newcollection .card:hover{
+        background-color:#0dcaf015;
+        
+        transition: .5s;
+    }
+
+    #newcollection .card:hover input{
+        opacity: 1;
+    }
+/* ,,,,,,,,,,,,,,,,,,end,,,,,,,,,,,,,,,,, */
+
+
+
+
+
+
+/* ,,,,,,,,,,,,,,,,,,start,,,,,,,,,,,,,,,,, */
+
+    #peralux{
+      background-image: url(/images/benner/peraluxbenner.jpg);
+        background-attachment: fixed;
+        background-size: 100% 100%;
+        width: 100%;
+       
+     
+        color: white;
+  
+
+    }
+    #peralux h1{
+        color: #fff;
+    }
+    .after1{
+       
+        width: 100%;
+        height: 100%;
+        padding: ;
+        
+      
+        background-color: rgba(0, 0, 0, 0.527);
+    }
+    .btn11{
+        height: 45px;
+        width: 120px;
+        background: transparent;
+        border: 2px solid white;
+        color: white;
+        outline: none;
+        border-radius: 5px;
+        margin-right: 2px;
+        transition: .5s;
+
+
+    }
+    .btn11:hover{
+        font-weight: 600;
+        height: 45px;
+        width: 120px;
+        background: #ef02f7;
+        border: 2px solid white;
+        color: rgb(0, 0, 0);
+        outline: none;
+        border-radius: 5px;
+        margin-right: 2px;
+
+
+    }
+    .btn22{
+        margin-left: 3px;
+        transition: .5s;
+        height: 45px;
+        width: 120px;
+        background: rgb(165, 236, 22);
+        border: 2px solid rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
+        outline: none;
+        border-radius: 5px;
+
+
+    }
+    .btn22:hover{
+        font-weight: 600;
+        height: 45px;
+        width: 120px;
+        background: rgb(248, 248, 248);
+        border: 2px solid rgb(247, 3, 247);
+        color: rgb(0, 0, 0);
+        outline: none;
+        border-radius: 5px;
+        margin-right: 2px;
+
+
+    }
+/* ,,,,,,,,,,,,,,,,,,end,,,,,,,,,,,,,,,,, */
+
+
+
+
+
+
+/* ,,,,,,,,,,,,,,,,,,start,,,,,,,,,,,,,,,,, */
+    .blog-card{
+        margin-bottom: 20px;
+        background: #F5F5F5;
+    }
+/* ,,,,,,,,,,,,,,,,,,end,,,,,,,,,,,,,,,,, */
+
+
+
+
+
+
+/* ,,,,,,,,,,,,,,,,,,start,,,,,,,,,,,,,,,,, */
+.form-group input{
+    background:rgba(221, 221, 221, 0.329);
+}.form-group textarea{
+    background:rgba(221, 221, 221, 0.295);
+}
+
+/* ,,,,,,,,,,,,,,,,,,end,,,,,,,,,,,,,,,,, */
+
+
+.gra{
+    background-image: linear-gradient( 109.6deg,  rgba(48,207,208,1) 11.2%, rgba(51,8,103,1) 92.5% );
+    color: white;
+    border: none;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.11), 
+    0 2px 2px rgba(0,0,0,0.11), 
+    0 4px 4px rgba(0,0,0,0.11), 
+    0 8px 8px rgba(0,0,0,0.11), 
+    0 16px 16px rgba(0,0,0,0.11), 
+    0 32px 32px rgba(0,0,0,0.11);
+    margin-top: px;
+
+}
+
+
+
+/* ,,,,,,,,,,,,,,,,,,start,,,,,,,,,,,,,,,,, */
+/* ,,,,,,,,,,,,,,,,,,end,,,,,,,,,,,,,,,,, */
+
+
+
+
+
+
